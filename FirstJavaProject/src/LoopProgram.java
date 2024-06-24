@@ -1,7 +1,7 @@
 public class LoopProgram{
 
     public static void main(String[] args) {
-        // Calling each method to perform the tasks
+    
         printOddNumbers();
         printSquares();
         printNumbersWithIncrement();
@@ -15,7 +15,7 @@ public class LoopProgram{
                 System.out.println(i);
             }
         }
-        System.out.println(); // For better readability
+        System.out.println(); 
     }
 
     // Method to print the squares of numbers between 1 and 10
@@ -24,7 +24,7 @@ public class LoopProgram{
         for (int i = 1; i <= 10; i++) {
             System.out.println("Square of " + i + " is: " + (i * i));
         }
-        System.out.println(); // For better readability
+        System.out.println(); 
     }
 
     // Method to print numbers between 20 and 50 with increments of 1.5
